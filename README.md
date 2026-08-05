@@ -20,7 +20,7 @@ so it won't collide with CoreProtect's bundled sqlite-jdbc on the same
 server.
 
 Before building, check `pom.xml` and bump the `paper-api` version to
-match whatever your server is actually running (`1.21.1-R0.1-SNAPSHOT` is
+match whatever your server is actually running (`1.21.11-R0.1-SNAPSHOT` is
 just a placeholder).
 
 ## Installing
