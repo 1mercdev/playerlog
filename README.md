@@ -15,7 +15,7 @@ mvn clean package
 ```
 
 The relevant jar is `target/PlayerLog.jar`. sqlite-jdbc is shaded in and
-its `org.sqlite` package is relocated to `com.luigi.playerlog.libs.sqlite`
+its `org.sqlite` package is relocated to `com.mercdev.playerlog.libs.sqlite`
 so it won't collide with CoreProtect's bundled sqlite-jdbc on the same
 server.
 
