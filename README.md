@@ -60,3 +60,6 @@ Works for offline players as well!
   want to correct something, log a new entry. Keeps the history honest,
   same as a commit log.
   If you'd like to see log editing implemented, let me know through an issue.
+
+## License
+This software is licensed under the GNU GPLv3.0 license. 
