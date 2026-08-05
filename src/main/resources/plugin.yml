@@ -1,0 +1,30 @@
+name: PlayerLog
+version: '1.0.0'
+main: com.mercdev.playerlog.PlayerLogPlugin
+api-version: '1.21'
+author: 1mercdev
+description: Lightweight, git log-style note tracking for players.
+
+commands:
+  playerlog:
+    description: Track notes about players.
+    usage: /<command> <log|readlog|clearlog> <player> [args...]
+    aliases: [plog]
+
+permissions:
+  playerlog.log:
+    description: Allows writing log entries about a player.
+    default: op
+  playerlog.read:
+    description: Allows reading log entries about a player.
+    default: op
+  playerlog.clear:
+    description: Allows clearing all log entries about a player.
+    default: op
+  playerlog.admin:
+    description: Grants all PlayerLog permissions.
+    default: op
+    children:
+      playerlog.log: true
+      playerlog.read: true
+      playerlog.clear: true
